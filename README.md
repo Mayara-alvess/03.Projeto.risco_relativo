@@ -66,6 +66,10 @@ Após análise, constatamos que clientes com um score a partir de 5 tendem a apr
 
 [Clique Aqui](https://lookerstudio.google.com/u/0/reporting/37a47ef1-d2dc-4b94-a901-937abe99f296/page/p_x96g2a0hhd/edit)
 
+![](https://github.com/Mayara-alvess/Risco_relativo/blob/main/03projeto/imagem.jpg)
+
+
+
 ## Diretório
 
 - Na pasta de projetos, você encontrará as consultas realizadas através do BigQuery, bem como o ambiente do Google Colab, onde executei os códigos em Python.
