@@ -12,37 +12,6 @@ No atual cenário financeiro, a diminuição das taxas de juros tem gerado um no
 
 "Este projeto visa automatizar e aprimorar a análise de crédito através de técnicas avançadas de análise de dados, com o intuito de aumentar a precisão na avaliação do risco de crédito. Isso possibilitará ao banco tomar decisões mais informadas e reduzir a incidência de empréstimos incobráveis. O objetivo principal é melhorar a eficiência e precisão na avaliação do risco de crédito, permitindo ao banco tomar decisões embasadas sobre concessões de crédito e mitigar o risco de empréstimos não reembolsáveis. Além disso, a proposta ressalta a integração de uma métrica existente de pagamentos em atraso, fortalecendo assim a capacidade do modelo."
 
-## **Pré processamento dos dados**
-
-Para esse projeto foi disponibilizado pela Laboratoria 4 tabelas.
-
-Tabela user_info
-
-| Arquivo | Variável | Descrição |
-| --- | --- | --- |
-| user_info | user id | Número de identificação do cliente (único para cada cliente) |
-|  | age | Idade do cliente |
-|  | sex | Gênero do cliente |
-|  | last month salary | Último salário mensal que o cliente informou ao banco |
-|  | number dependents | Número de dependentes |
-
-Tabela loans_outstanding
-
-| loans_outstanding | loan id | Número de identificação do empréstimo (único para cada empréstimo) |
-| --- | --- | --- |
-|  | user id | Número de identificação do cliente |
-|  | loan type | Tipo de empréstimo (real state = imóveis, others= outros) |
-
-Tabela loans_detail
-
-| loans_detail | user id | Número de identificação do cliente |
-| --- | --- | --- |
-|  | more 90 days overdue | Número de vezes que o cliente apresentou atraso superior a 90 dias |
-|  | using lines not secured personal assets | Quanto o cliente está utilizando em relação ao seu limite de crédito, em linhas que não são garantidas por bens pessoais, como imóveis e automóveis |
-|  | number times delayed payment loan 30 59 days | Número de vezes que o cliente atrasou o pagamento de um empréstimo (entre 30 e 59 dias) |
-|  | debt ratio | Relação entre dívidas e ativos do cliente. Taxa de endividamento = Dívidas / Patrimonio |
-|  | number times delayed payment loan 60 89 days | Número de vezes que o cliente atrasou o pagamento de um empréstimo (entre 60 e 89 dias) |
-
 ## Conclusões
 
 1. **Risco Relativo por Idade:**
