@@ -37,7 +37,17 @@ Após análise, constatamos que clientes com um score a partir de 5 tendem a apr
 
 ![](https://github.com/Mayara-alvess/Risco_relativo/blob/main/03projeto/imagem.jpg)
 
+### Risco relativo
+![](https://github.com/Mayara-alvess/Risco_relativo/blob/main/03projeto/risco%20relativo%20imagem.png)
 
+
+### Matriz de confusão feita no google colab
+[Clique Aqui](https://colab.research.google.com/drive/16QL6dYXDCcbo-Hl9cSrG5X3Pbn-iyw9N?authuser=1#scrollTo=rmYuiYnw4U2b)
+
+![](https://github.com/Mayara-alvess/Risco_relativo/blob/main/03projeto/matrizz.png)
+
+### Regressão logistica
+![](https://github.com/Mayara-alvess/Risco_relativo/blob/main/03projeto/regressão_logistica.png)
 
 ## Diretório
 
