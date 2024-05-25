@@ -14,7 +14,7 @@ No atual cenário financeiro, a diminuição das taxas de juros tem gerado um no
 
 ## **Pré processamento dos dados**
 
-Para esse projeto foi disponibilizado pela laboratoria 4 tabelas.
+Para esse projeto foi disponibilizado pela Laboratoria 4 tabelas.
 
 Tabela user_info
 
