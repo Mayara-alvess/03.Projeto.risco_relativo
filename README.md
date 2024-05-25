@@ -72,5 +72,5 @@ Após análise, constatamos que clientes com um score a partir de 5 tendem a apr
 
 ## Diretório
 
-- Na pasta de projetos, você encontrará as consultas realizadas através do BigQuery, bem como o ambiente do Google Colab, onde executei os códigos em Python.
+- Na pasta de 03projeto, você encontrará as consultas realizadas através do BigQuery, bem como o ambiente do Google Colab, onde executei os códigos em Python.
 - Para uma documentação mais detalhada, você pode acessar a página no Notion [clique aqui](https://www.notion.so/Documenta-o-risco-relativo-2c8c2ce696c44aedb7f150d864aa38c8?pvs=21)
