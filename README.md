@@ -14,42 +14,145 @@ No atual cenário financeiro, a diminuição das taxas de juros tem gerado um no
 
 
 <details>
- <summary><h3 style="display: inline; font-weight: bold;">Obtenção dos dados</h3></summary>
+  <summary><strong>Obtenção dos dados</strong></summary>
   
-  Para esse projeto foi disponibilizado pela laboratoria 4 tabelas.
+  <p>Para esse projeto foi disponibilizado pela Laboratoria 4 tabelas.</p>
   
-  **Tabela user_info**
+  <h4>Tabela user_info</h4>
   
-  | Arquivo | Variável | Descrição |
-  | --- | --- | --- |
-  | user_info | user id | Número de identificação do cliente (único para cada cliente) |
-  |  | age | Idade do cliente |
-  |  | sex | Gênero do cliente |
-  |  | last month salary | Último salário mensal que o cliente informou ao banco |
-  |  | number dependents | Número de dependentes |
+  <table>
+    <thead>
+      <tr>
+        <th>Arquivo</th>
+        <th>Variável</th>
+        <th>Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>user_info</td>
+        <td>user id</td>
+        <td>Número de identificação do cliente (único para cada cliente)</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>age</td>
+        <td>Idade do cliente</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>sex</td>
+        <td>Gênero do cliente</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>last month salary</td>
+        <td>Último salário mensal que o cliente informou ao banco</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>number dependents</td>
+        <td>Número de dependentes</td>
+      </tr>
+    </tbody>
+  </table>
   
-  **Tabela loans_outstanding**
+  <h4>Tabela loans_outstanding</h4>
   
-  | loans_outstanding | loan id | Número de identificação do empréstimo (único para cada empréstimo) |
-  | --- | --- | --- |
-  |  | user id | Número de identificação do cliente |
-  |  | loan type | Tipo de empréstimo (real state = imóveis, others= outros) |
+  <table>
+    <thead>
+      <tr>
+        <th>Arquivo</th>
+        <th>Variável</th>
+        <th>Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>loans_outstanding</td>
+        <td>loan id</td>
+        <td>Número de identificação do empréstimo (único para cada empréstimo)</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>user id</td>
+        <td>Número de identificação do cliente</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>loan type</td>
+        <td>Tipo de empréstimo (real state = imóveis, others = outros)</td>
+      </tr>
+    </tbody>
+  </table>
   
-  **Tabela loans_detail**
+  <h4>Tabela loans_detail</h4>
   
-  | loans_detail | user id | Número de identificação do cliente |
-  | --- | --- | --- |
-  |  | more 90 days overdue | Número de vezes que o cliente apresentou atraso superior a 90 dias |
-  |  | using lines not secured personal assets | Quanto o cliente está utilizando em relação ao seu limite de crédito, em linhas que não são garantidas por bens pessoais, como imóveis e automóveis |
-  |  | number times delayed payment loan 30 59 days | Número de vezes que o cliente atrasou o pagamento de um empréstimo (entre 30 e 59 dias) |
-  |  | debt ratio | Relação entre dívidas e ativos do cliente. Taxa de endividamento = Dívidas / Patrimonio |
-  |  | number times delayed payment loan 60 89 days | Número de vezes que o cliente atrasou o pagamento de um empréstimo (entre 60 e 89 dias) |
+  <table>
+    <thead>
+      <tr>
+        <th>Arquivo</th>
+        <th>Variável</th>
+        <th>Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>loans_detail</td>
+        <td>user id</td>
+        <td>Número de identificação do cliente</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>more 90 days overdue</td>
+        <td>Número de vezes que o cliente apresentou atraso superior a 90 dias</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>using lines not secured personal assets</td>
+        <td>Quanto o cliente está utilizando em relação ao seu limite de crédito, em linhas que não são garantidas por bens pessoais, como imóveis e automóveis</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>number times delayed payment loan 30 59 days</td>
+        <td>Número de vezes que o cliente atrasou o pagamento de um empréstimo (entre 30 e 59 dias)</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>debt ratio</td>
+        <td>Relação entre dívidas e ativos do cliente. Taxa de endividamento = Dívidas / Patrimonio</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>number times delayed payment loan 60 89 days</td>
+        <td>Número de vezes que o cliente atrasou o pagamento de um empréstimo (entre 60 e 89 dias)</td>
+      </tr>
+    </tbody>
+  </table>
   
-  **Tabela default**
+  <h4>Tabela default</h4>
   
-  | default | user id | Número de identificação do cliente |
-  | --- | --- | --- |
-  |  | default flag | Classificação dos clientes inadimplentes (1 para clientes já registrados alguma vez como inadimplentes, 0 para clientes sem histórico de inadimplência) |
+  <table>
+    <thead>
+      <tr>
+        <th>Arquivo</th>
+        <th>Variável</th>
+        <th>Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>default</td>
+        <td>user id</td>
+        <td>Número de identificação do cliente</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>default flag</td>
+        <td>Classificação dos clientes inadimplentes (1 para clientes já registrados alguma vez como inadimplentes, 0 para clientes sem histórico de inadimplência)</td>
+      </tr>
+    </tbody>
+  </table>
 </details>
 
 
