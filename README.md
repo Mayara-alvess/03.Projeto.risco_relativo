@@ -2,7 +2,7 @@
 
 ## O que é o projeto?
 
-Este projeto é o 2 desenvolvido no bootcamp da Laboratória, onde mergulhamos em análise de dados. Durante o curso, desenvolvemos sete projetos que aplicam os conhecimentos adquiridos.
+Este projeto é o 3 desenvolvido no bootcamp da Laboratória, onde mergulhamos em análise de dados. Durante o curso, desenvolvemos sete projetos que aplicam os conhecimentos adquiridos.
 
 ## **Contexto**
 
