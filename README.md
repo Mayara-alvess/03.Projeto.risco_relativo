@@ -166,7 +166,7 @@ Clientes  com um maior número de empréstimos ativos não necessariamente apres
 3. **Atrasos nos Pagamentos:**
 Pessoas que frequentemente atrasam seus pagamentos por mais de 90 dias tendem a apresentar uma maior inadimplência com o banco.
 4. **Matriz de confusão:**
-Os resultados mostram que o modelo tem uma acurácia balanceada de 76%, indicando que, em média, está classificando corretamente 76% das amostras. No entanto, o baixo F1-score de 15% sugere que o modelo está tendo dificuldades em alcançar um equilíbrio entre precisão e recall. Para melhoria futura, podemos explorar diferentes modelos ou ajustar os parâmetros.
+Os resultados mostram que o modelo tem uma acurácia balanceada de 0.71%, indicando que, em média, está classificando corretamente 0.71% das amostras. No entanto, o baixo F1-score de 0.24% sugere que o modelo está tendo dificuldades em alcançar um equilíbrio entre precisão e recall. Para melhoria futura, podemos explorar diferentes modelos ou ajustar os parâmetros.
 5. **Regressão logistica**
 Após análise, constatamos que clientes com um score acima de 4 tendem a apresentar um maior risco de inadimplência.
 
