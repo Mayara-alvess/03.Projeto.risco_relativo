@@ -160,15 +160,15 @@ No atual cenário financeiro, a diminuição das taxas de juros tem gerado um no
 ## Conclusões
 
 1. **Risco Relativo por Idade:**
-Com base no risco relativo, os jovens entre 21 e 42 anos apresentam um risco maior de inadimplência. Além disso, pessoas de até 52 anos também demonstram um risco elevado de não pagamento.
+Avaliando o risco relativo, clientes mais jovens tendem a ter maior propensão à inadimplência, enquanto os mais velhos demonstram menor risco.
 2. **Risco Relativo por Número de Empréstimos:**
-Pessoas com um maior número de empréstimos ativos têm uma probabilidade mais alta de serem maus pagadores.
+Clientes  com um maior número de empréstimos ativos não necessariamente apresentam um risco maior de inadimplência..
 3. **Atrasos nos Pagamentos:**
 Pessoas que frequentemente atrasam seus pagamentos por mais de 90 dias tendem a apresentar uma maior inadimplência com o banco.
 4. **Matriz de confusão:**
 Os resultados mostram que o modelo tem uma acurácia balanceada de 76%, indicando que, em média, está classificando corretamente 76% das amostras. No entanto, o baixo F1-score de 15% sugere que o modelo está tendo dificuldades em alcançar um equilíbrio entre precisão e recall. Para melhoria futura, podemos explorar diferentes modelos ou ajustar os parâmetros.
 5. **Regressão logistica**
-Após análise, constatamos que clientes com um score a partir de 5 tendem a apresentar um maior risco de inadimplência.
+Após análise, constatamos que clientes com um score acima de 4 tendem a apresentar um maior risco de inadimplência.
 
 ## 🛠 Tecnologias
 
