@@ -183,16 +183,15 @@ Após análise, constatamos que clientes com um score acima de 4 tendem a aprese
 ![](https://github.com/Mayara-alvess/Risco_relativo/blob/main/03projeto/imagem.jpg)
 
 ### Risco relativo
-![](https://github.com/Mayara-alvess/Risco_relativo/blob/main/03projeto/risco%20relativo%20imagem.png)
+![](https://github.com/Mayara-alvess/03.Projeto.risco_relativo/blob/main/03projeto/risco_relativo.png)
 
 
 ### Matriz de confusão feita no google colab
-[Clique Aqui](https://colab.research.google.com/drive/16QL6dYXDCcbo-Hl9cSrG5X3Pbn-iyw9N?authuser=1#scrollTo=rmYuiYnw4U2b)
 
-![](https://github.com/Mayara-alvess/Risco_relativo/blob/main/03projeto/matrizz.png)
+![](https://github.com/Mayara-alvess/03.Projeto.risco_relativo/blob/main/03projeto/matrizdeconfusao.png)
 
 ### Regressão logistica
-![](https://github.com/Mayara-alvess/Risco_relativo/blob/main/03projeto/regressão_logistica.png)
+![](https://github.com/Mayara-alvess/03.Projeto.risco_relativo/blob/main/03projeto/regressao.png)
 
 ## Diretório
 
