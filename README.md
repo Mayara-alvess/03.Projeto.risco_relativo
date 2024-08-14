@@ -188,10 +188,10 @@ Após análise, constatamos que clientes com um score acima de 5 tendem a aprese
 
 ### Matriz de confusão feita no google colab
 
-![](https://github.com/Mayara-alvess/03.Projeto.risco_relativo/blob/main/03projeto/matrizconfusao.png)
+![](https://github.com/Mayara-alvess/03.Projeto.risco_relativo/blob/main/03projeto/matrizgit.png)
 
 ### Regressão logistica
-![](https://github.com/Mayara-alvess/03.Projeto.risco_relativo/blob/main/03projeto/regressao.png)
+![](https://github.com/Mayara-alvess/03.Projeto.risco_relativo/blob/main/03projeto/regress%C3%A3ologistica.png)
 
 ## Diretório
 
